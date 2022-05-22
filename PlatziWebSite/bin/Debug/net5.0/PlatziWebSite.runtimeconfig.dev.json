@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\efelix\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\efelix\\.nuget\\packages"
+    ]
+  }
+}
