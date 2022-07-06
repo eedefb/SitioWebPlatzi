@@ -6,3 +6,21 @@
     <h1 class="display-4">Welcome to Edgars Web Site</h1>
     <p>Vamos a cambiar este parrafo <a href="https://docs.microsoft.com/aspnet/core">Primer parrafo, este va a ser un sitio muy padre</a>.</p>
 </div>
+
+    <!DOCTYPE html>
+    <html>
+      <head>
+        <script src='https://8x8.vc/external_api.js' async></script>
+        <style>html, body, #jaas-container { height: 100%; }</style>
+        <script type="text/javascript">
+          window.onload = () => {
+            const api = new JitsiMeetExternalAPI("8x8.vc", {
+              roomName: "vpaas-magic-cookie-80682df69fcb4ebd9441c22c8bb21d19/SampleAppFreeFrogsCycleSomewhat",
+              parentNode: document.querySelector('#jaas-container')
+            });
+          }
+        </script>
+      </head>
+      <body><div id="jaas-container" /></body>
+    </html>
+  
